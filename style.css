@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f2e2f7;
+    border-radius: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 5px;
+    position: relative;
+}
+
+.small-box {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    margin: 2px;
+}
+
+.vertical {
+    display: block;
+}
